@@ -36,10 +36,11 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 """
 Approach 1: We can use a nested loop to iterate over the array and check if sum of value of two indexs in nums is
 equal to target then return those indexs
+
+Time complexity of O(n^2)
+Space complexity of  O(n) , where n is the length of the array
+
 """
-# Time complexity of O(n^2)
-# Space complexity of  O(1)
-# where n is the length of the array.
 
 
 class Solution:
@@ -55,10 +56,11 @@ class Solution:
 Approach 2: We can use dictionary to store the pair of value to index of list and then check if the value which is required to
 compliment (target-current_value) already present in dictionary , if yes return current index and index of compliment from 
 dictionary
+
+Time complexity of O(n)
+Space complexity of  O(n)  where n is the length of the array
+
 """
-# Time complexity of O(n)
-# Space complexity of  O(n)
-# where n is the length of the array.
 
 
 class Solution:
